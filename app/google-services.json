@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "644607014301",
+    "firebase_url": "https://maps-452e2-default-rtdb.firebaseio.com",
+    "project_id": "maps-452e2",
+    "storage_bucket": "maps-452e2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:644607014301:android:85a9ff37416eb92bbb2b74",
+        "android_client_info": {
+          "package_name": "com.pascal.mapsku"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "644607014301-ie860ikpcee82ca5hqo733j0ko4csfjo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMb8nfQtQjt2AlJrZtv5VN_zWtysanF54"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "644607014301-ie860ikpcee82ca5hqo733j0ko4csfjo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

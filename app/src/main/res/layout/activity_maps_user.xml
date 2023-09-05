@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.user.MapsUserActivity" >
+
+    <fragment
+        android:id="@+id/map_user"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:name="com.google.android.gms.maps.SupportMapFragment"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:layout_alignParentTop="true"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/user_btnHybrid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:paddingHorizontal="8dp"
+            android:background="@drawable/input_text"
+            android:fontFamily="@font/cocon"
+            android:textColor="#2196F3"
+            android:gravity="center"
+            android:text="Hybrid"/>
+
+        <TextView
+            android:id="@+id/user_btnSatelit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingHorizontal="8dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/input_text"
+            android:fontFamily="@font/cocon"
+            android:textColor="#2196F3"
+            android:gravity="center"
+            android:text="Satelit"/>
+
+        <TextView
+            android:id="@+id/user_btnTerrain"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:paddingHorizontal="8dp"
+            android:background="@drawable/input_text"
+            android:fontFamily="@font/cocon"
+            android:textColor="#2196F3"
+            android:gravity="center"
+            android:text="Terrain"/>
+
+        <TextView
+            android:id="@+id/user_btnNormal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:paddingHorizontal="8dp"
+            android:background="@drawable/input_text"
+            android:fontFamily="@font/cocon"
+            android:textColor="#2196F3"
+            android:gravity="center"
+            android:text="Normal"/>
+    </LinearLayout>
+</RelativeLayout>
